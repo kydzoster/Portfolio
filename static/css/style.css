@@ -65,21 +65,12 @@ body {
     max-height: 38rem!important;
 }
 
-/*---Change Carousel Transition Speed --*/
-
-.carousel-item-next,
-.carousel-item-prev,
-.carousel-item.active {
-    transition: transform 1.2s ease;
-}
-
 /*-- Carousel Content --*/
 
 .carousel-caption {
     position: absolute;
-    top: 54%;
+    top: 50%;
     transform: translateY(-50%);
-    text-transform: uppercase;
 }
 
 .bg-custom {
@@ -212,6 +203,7 @@ footer i:hover {
         font-size: .95rem;
     }
 }
+
 
 /*-- Bootstrap Mobile Gutter Fix --*/
 .row, .container-fluid {
